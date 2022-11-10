@@ -1,0 +1,950 @@
+fileFormatVersion: 2
+guid: 681aeff1bd3e5d540bc63f451ada3973
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mm1bombman_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 134
+        width: 27
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032658b55bcf4b548a5057e5bfcf0597
+      internalID: -2058115218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 134
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788c6919e4c458246a46ea68cd979acc
+      internalID: -2108588137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_2
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 134
+        width: 27
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f97bc898db9abb4faa1690ff8948aaa
+      internalID: 522446094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_3
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 134
+        width: 31
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9609da05ba511d49bb88235afa55dc5
+      internalID: 715859173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_4
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 135
+        width: 27
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e054180b8e9d14d438eb6b11561ffb65
+      internalID: 1856928868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 134
+        width: 27
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7c58051d617a749bfa867bf9cea302
+      internalID: -700781489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_6
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 135
+        width: 30
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04aedcf0635e21147b94962b660f03da
+      internalID: 212530259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_7
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 141
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91faa8f29dda9749b2bdefd1426f057
+      internalID: 1792793444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_8
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 83
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4bbea4833704a4b806bcb8cba09497
+      internalID: 1788865902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_9
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 104
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1cf54deb9a493488c2334138384cb6
+      internalID: 931549238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_10
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 104
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b3b372e6667894393a21afb2bb1bd9
+      internalID: -1434245347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_11
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 80
+        width: 36
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206dd2a1dcdfdf44a822ebcefa3673eb
+      internalID: 1720965186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_12
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 80
+        width: 35
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead6be3028b079e45845c40647532b9a
+      internalID: 1453275961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_13
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 78
+        width: 37
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5353257cc6c14e4cae4b3bc446468c8
+      internalID: 607188262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_16
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 85
+        width: 26
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13a250ec9230b54aac17ae68ae6af6b
+      internalID: -1137296080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_17
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 85
+        width: 29
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea2d1f335d094b43a927b2febe5783f
+      internalID: -255892634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_18
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 85
+        width: 30
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5cd7b4aae8b4e4697fe4a7808d2e9a
+      internalID: 1086246527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_19
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 87
+        width: 16
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a982408c948ee7449d909e4186cb47b
+      internalID: 394359138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_21
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 89
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44b407897827d04baf02f99b136c28e
+      internalID: -1376277799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_22
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 87
+        width: 20
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6f3f4ba3c78b443a116dfd1eb181ca
+      internalID: 1717158857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_23
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 88
+        width: 20
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548a423d4ec6d5c42a2625051b11ee74
+      internalID: 1957060246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_24
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 93
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e32d20487e658142841908fd07f4bfd
+      internalID: -940749008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_30
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 82
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9190c53cc66054f9d05060b0ff6f1f
+      internalID: -2015181932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_31
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 82
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebbce42b30c69b459a072eebba75044
+      internalID: -328555323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_36
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 11
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcceee96a93f2a541b9ad8bfaaf0e9a0
+      internalID: 510169604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_40
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 11
+        width: 50
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fa54ef4d087024194c0b32d508846e
+      internalID: 1412425068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_42
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 8
+        width: 61
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e596d998ad56b4ca9c9c3db4a584e4
+      internalID: 65257246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_51
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 10
+        width: 47
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe649d15a85cee498b6c352dca5fed1
+      internalID: 391587430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_57
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 11
+        width: 60
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d48fbd59d75cc1458d1763dd9565710
+      internalID: -269341743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_75
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 8
+        width: 54
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff7dc6c2938d60419e700309740359d
+      internalID: -1964758776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_90
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 21
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ceecf1bdaad5364c990cc19d1777d7e
+      internalID: 1723237976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_91
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 11
+        width: 44
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018e5837306423d408c5c4a3ed50975d
+      internalID: 1415279893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_92
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 20
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc6e1cc06de74448b335a27f0ee9d8a
+      internalID: 1358481326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mm1bombman_14
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 74
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643127491fa2b0946b479a4743cee49d
+      internalID: 650344501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mm1bombman_56: -1766945334
+      mm1bombman_21: -1376277799
+      mm1bombman_84: 98059241
+      mm1bombman_88: -2110344332
+      mm1bombman_57: -269341743
+      mm1bombman_66: 2053171562
+      mm1bombman_85: 1508421075
+      mm1bombman_20: -1320537338
+      mm1bombman_7: 1792793444
+      mm1bombman_90: 1723237976
+      mm1bombman_98: 226171450
+      mm1bombman_42: 65257246
+      mm1bombman_58: -1644291168
+      mm1bombman_87: 83614484
+      mm1bombman_5: -700781489
+      mm1bombman_96: -936400982
+      mm1bombman_27: 1085464016
+      mm1bombman_51: 391587430
+      mm1bombman_73: 955781654
+      mm1bombman_16: -1137296080
+      mm1bombman_70: -1798700801
+      mm1bombman_72: 1727041354
+      mm1bombman_79: 818327306
+      mm1bombman_54: -821861725
+      mm1bombman_36: 510169604
+      mm1bombman_13: 607188262
+      mm1bombman_14: 650344501
+      mm1bombman_30: -2015181932
+      mm1bombman_22: 1717158857
+      mm1bombman_81: 1168840144
+      mm1bombman_25: 57316994
+      mm1bombman_86: -979701110
+      mm1bombman_63: 864758412
+      mm1bombman_15: -1630885953
+      mm1bombman_78: -1694524147
+      mm1bombman_41: 1993071410
+      mm1bombman_23: 1957060246
+      mm1bombman_35: 451422823
+      mm1bombman_39: -319470497
+      mm1bombman_93: -70730769
+      mm1bombman_69: -1383398084
+      mm1bombman_37: -653977991
+      mm1bombman_97: -1308533295
+      mm1bombman_34: 1516014815
+      mm1bombman_99: -2108663832
+      mm1bombman_59: -1907343203
+      mm1bombman_89: -21641056
+      mm1bombman_94: -1408095484
+      mm1bombman_11: 1720965186
+      mm1bombman_45: -1889410623
+      mm1bombman_74: 1734574250
+      mm1bombman_75: -1964758776
+      mm1bombman_17: -255892634
+      mm1bombman_82: 1326332672
+      mm1bombman_26: -1956562854
+      mm1bombman_52: -885113231
+      mm1bombman_43: -1469710460
+      mm1bombman_12: 1453275961
+      mm1bombman_31: -328555323
+      mm1bombman_29: 1963008010
+      mm1bombman_18: 1086246527
+      mm1bombman_0: -2058115218
+      mm1bombman_24: -940749008
+      mm1bombman_77: -1074733956
+      mm1bombman_95: -148397622
+      mm1bombman_3: 715859173
+      mm1bombman_67: -1148819607
+      mm1bombman_49: 1073795553
+      mm1bombman_55: 370762998
+      mm1bombman_32: -1810559572
+      mm1bombman_62: -1358795430
+      mm1bombman_8: 1788865902
+      mm1bombman_46: 637767306
+      mm1bombman_38: -1363300622
+      mm1bombman_60: 285979811
+      mm1bombman_64: 1054656950
+      mm1bombman_61: 1650336066
+      mm1bombman_28: 1665890125
+      mm1bombman_65: 1165747298
+      mm1bombman_50: -831165274
+      mm1bombman_33: -1721761725
+      mm1bombman_6: 212530259
+      mm1bombman_83: -555362730
+      mm1bombman_4: 1856928868
+      mm1bombman_68: 2079662437
+      mm1bombman_19: 394359138
+      mm1bombman_91: 1415279893
+      mm1bombman_2: 522446094
+      mm1bombman_80: -1551771395
+      mm1bombman_44: 1356452508
+      mm1bombman_1: -2108588137
+      mm1bombman_40: 1412425068
+      mm1bombman_10: -1434245347
+      mm1bombman_48: 207709544
+      mm1bombman_92: 1358481326
+      mm1bombman_71: -1391595489
+      mm1bombman_53: -1629814279
+      mm1bombman_9: 931549238
+      mm1bombman_76: -493138332
+      mm1bombman_47: 1891705011
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
