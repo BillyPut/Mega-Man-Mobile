@@ -2,23 +2,21 @@
 using UnityEngine;
 namespace Player
 {
-    public class IdleShootState : State
+    public class AirShootState : State
     {
 
 
         // constructor
-        public IdleShootState(MegaManScript player, StateMachine sm) : base(player, sm)
+        public AirShootState(MegaManScript player, StateMachine sm) : base(player, sm)
         {
         }
 
         public override void Enter()
         {
             base.Enter();
-            player.anim.Play("megaStandShoot", 0, 0);
+            player.anim.Play("megaAirShoot", 0, 0);
             player.shootAnimTimer = 0.3f;
-            player.xv = 0;
             player.cooldown = 0.2f;
-            
 
 
         }
@@ -40,11 +38,12 @@ namespace Player
             base.LogicUpdate();
 
 
-            if (player.shootAnimTimer <= 0f)
+
+            player.CheckForIdle();
+            if (player.shootAnimTimer <= 0)
             {
-                player.CheckForIdle();
-            }
-            player.CheckForJump();
+                player.CheckForFall();
+            }    
             player.CheckForRun();
             player.CheckForHit();
 
@@ -53,7 +52,7 @@ namespace Player
 
         public override void PhysicsUpdate()
         {
-            //base.PhysicsUpdate();
+            base.PhysicsUpdate();
         }
     }
 }

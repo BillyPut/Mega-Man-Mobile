@@ -1,24 +1,23 @@
 
+using System.Diagnostics.CodeAnalysis;
 using UnityEngine;
 namespace Player
 {
-    public class IdleShootState : State
+    public class RunningShootState : State
     {
 
 
         // constructor
-        public IdleShootState(MegaManScript player, StateMachine sm) : base(player, sm)
+        public RunningShootState(MegaManScript player, StateMachine sm) : base(player, sm)
         {
         }
 
         public override void Enter()
         {
             base.Enter();
-            player.anim.Play("megaStandShoot", 0, 0);
+            player.anim.Play("megaShootState", 0, 0);
             player.shootAnimTimer = 0.3f;
-            player.xv = 0;
             player.cooldown = 0.2f;
-            
 
 
         }
@@ -40,12 +39,13 @@ namespace Player
             base.LogicUpdate();
 
 
-            if (player.shootAnimTimer <= 0f)
-            {
-                player.CheckForIdle();
-            }
+
+            player.CheckForIdle();
             player.CheckForJump();
-            player.CheckForRun();
+            if (player.shootAnimTimer <= 0 )
+            {
+                player.CheckForRun();
+            }
             player.CheckForHit();
 
 
@@ -53,7 +53,7 @@ namespace Player
 
         public override void PhysicsUpdate()
         {
-            //base.PhysicsUpdate();
+            base.PhysicsUpdate();
         }
     }
 }

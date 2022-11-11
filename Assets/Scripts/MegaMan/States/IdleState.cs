@@ -14,8 +14,9 @@ namespace Player
         public override void Enter()
         {
             base.Enter();
-            //player.anim.Play("megaIdle", 0, 0);
+            player.anim.Play("megaIdle", 0, 0);
             player.xv = 0;
+           
 
         }
 
@@ -35,16 +36,19 @@ namespace Player
         {
             base.LogicUpdate();
 
+          
+      
             player.CheckForRun();
             player.CheckForShoot();
             player.CheckForJump();
+            player.CheckForHit();
            
 
         }
 
         public override void PhysicsUpdate()
         {
-            base.PhysicsUpdate();
+            //base.PhysicsUpdate();
         }
     }
 }

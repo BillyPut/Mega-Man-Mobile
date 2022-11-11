@@ -1,4 +1,5 @@
 
+using Unity.VisualScripting;
 using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 
@@ -20,7 +21,7 @@ namespace Player
         // These methods are common to all states
         public virtual void Enter()
         {
-            //Debug.Log("This is base.enter");
+            Debug.Log(sm.CurrentState);
         }
 
         public virtual void HandleInput()
@@ -30,10 +31,21 @@ namespace Player
 
         public virtual void LogicUpdate()
         {
+            
         }
 
         public virtual void PhysicsUpdate()
         {
+            if (player.joystick.InputDir.x > 0.05)
+            {
+                player.xv = 4;
+                player.sr.flipX = false;
+            }
+            if (player.joystick.InputDir.x < -0.05)
+            {
+                player.xv = -4;
+                player.sr.flipX = true;
+            }
         }
 
         public virtual void Exit()
