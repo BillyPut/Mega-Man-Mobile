@@ -4,9 +4,21 @@ using UnityEngine;
 
 public class PelletScript : MonoBehaviour
 {
+    public float explodeTimer = 1.3f;
+
+    void Update()
+    {
+        explodeTimer -= Time.deltaTime;
+        if (explodeTimer <= 0)
+        {
+            Destroy(gameObject);
+        }
+
+    }
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Platform" || collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Enemy")
         {
             Destroy(gameObject);
         }

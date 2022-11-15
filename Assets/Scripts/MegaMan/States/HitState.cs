@@ -17,8 +17,7 @@ namespace Player
             base.Enter();
             player.anim.Play("megaHit", 0, 0);
             player.invinsibility = 0.3f;
-            player.xv = 0;
-            player.yv = 0;
+            player.rb.velocity = new Vector2(0f, 0f);
             
 
 

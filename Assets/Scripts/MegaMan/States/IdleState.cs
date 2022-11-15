@@ -15,7 +15,7 @@ namespace Player
         {
             base.Enter();
             player.anim.Play("megaIdle", 0, 0);
-            player.xv = 0;
+            player.rb.velocity = new Vector2(0f, 0f);
            
 
         }

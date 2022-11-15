@@ -23,8 +23,7 @@ namespace Player
 
         public Rigidbody2D pellet;
         
-        public float xv, yv;
-        public int health;
+        //public float xv, yv;
         public float cooldown;
         public float shootAnimTimer;
         public float invinsibility;
@@ -58,8 +57,6 @@ namespace Player
             fallingstate = new FallingState(this, sm);
             hitState = new HitState(this, sm);   
 
-            health = 100;
-
             sm.Init(idleState);
         }
 
@@ -82,16 +79,7 @@ namespace Player
 
         void FixedUpdate()
         {
-            if (rayHit == false)
-            {
-                yv -= Time.deltaTime * 6f;
-            }
-            if (rayHit == true && yv < -0.01)
-            {
-                yv = 0;
-            }
            
-            rb.velocity = new Vector2(xv, yv);
             sm.CurrentState.PhysicsUpdate();
            
         }
@@ -100,7 +88,7 @@ namespace Player
         {
 
             
-            if (joystick.InputDir.x > 0.1 || joystick.InputDir.x < -0.1 && rayHit == true)
+            if (joystick.InputDir.x > 0.1 && rayHit == true || joystick.InputDir.x < -0.1 && rayHit == true)
             {
                 sm.ChangeState(runningState);
          
@@ -150,11 +138,11 @@ namespace Player
                     proj.velocity = -transform.right * 10;
                 }
 
-                if (rayHit == true && xv == 0)
+                if (rayHit == true && rb.velocity.x == 0)
                 {
                     sm.ChangeState(idleShootState);
                 }
-                if (rayHit == true && xv != 0)
+                if (rayHit == true && rb.velocity.x != 0)
                 {
                     sm.ChangeState(runningShootState);
                 }
@@ -185,11 +173,11 @@ namespace Player
             if (hit.collider != null)
             {
                 hitColor = Color.green;
-                Debug.DrawRay(new Vector2(transform.position.x, transform.position.y), -Vector2.up * 0.2f, hitColor);
+                Debug.DrawRay(new Vector2(transform.position.x, transform.position.y), -Vector2.up * 0.1f, hitColor);
                 rayHit = true;
             }
 
-            Debug.DrawRay(new Vector2(transform.position.x, transform.position.y), -Vector2.up * 0.2f, hitColor);
+            Debug.DrawRay(new Vector2(transform.position.x, transform.position.y), -Vector2.up * 0.1f, hitColor);
 
         }
 

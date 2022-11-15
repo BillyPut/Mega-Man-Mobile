@@ -815,9 +815,9 @@ TextureImporter:
       name: bombManTileset2_45
       rect:
         serializedVersion: 2
-        x: 71
+        x: 70
         y: 70
-        width: 15
+        width: 16
         height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -838,7 +838,7 @@ TextureImporter:
         serializedVersion: 2
         x: 86
         y: 70
-        width: 15
+        width: 16
         height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -857,9 +857,9 @@ TextureImporter:
       name: bombManTileset2_47
       rect:
         serializedVersion: 2
-        x: 102
+        x: 101
         y: 70
-        width: 15
+        width: 16
         height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -922,7 +922,7 @@ TextureImporter:
         serializedVersion: 2
         x: 149
         y: 70
-        width: 15
+        width: 16
         height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -941,9 +941,9 @@ TextureImporter:
       name: bombManTileset2_52
       rect:
         serializedVersion: 2
-        x: 71
+        x: 70
         y: 54
-        width: 15
+        width: 16
         height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -964,7 +964,7 @@ TextureImporter:
         serializedVersion: 2
         x: 86
         y: 54
-        width: 15
+        width: 16
         height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -983,9 +983,9 @@ TextureImporter:
       name: bombManTileset2_54
       rect:
         serializedVersion: 2
-        x: 102
+        x: 101
         y: 54
-        width: 15
+        width: 16
         height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1048,7 +1048,7 @@ TextureImporter:
         serializedVersion: 2
         x: 149
         y: 54
-        width: 15
+        width: 16
         height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1067,7 +1067,7 @@ TextureImporter:
       name: bombManTileset2_59
       rect:
         serializedVersion: 2
-        x: 78
+        x: 70
         y: 36
         width: 16
         height: 16
@@ -1088,9 +1088,9 @@ TextureImporter:
       name: bombManTileset2_60
       rect:
         serializedVersion: 2
-        x: 102
+        x: 101
         y: 38
-        width: 15
+        width: 16
         height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1153,7 +1153,7 @@ TextureImporter:
         serializedVersion: 2
         x: 149
         y: 38
-        width: 15
+        width: 16
         height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1172,9 +1172,9 @@ TextureImporter:
       name: bombManTileset2_65
       rect:
         serializedVersion: 2
-        x: 102
+        x: 101
         y: 22
-        width: 15
+        width: 16
         height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1237,7 +1237,7 @@ TextureImporter:
         serializedVersion: 2
         x: 149
         y: 22
-        width: 15
+        width: 16
         height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1256,7 +1256,7 @@ TextureImporter:
       name: bombManTileset2_71
       rect:
         serializedVersion: 2
-        x: 125
+        x: 117
         y: 5
         width: 16
         height: 16
@@ -1269,6 +1269,48 @@ TextureImporter:
       bones: []
       spriteID: a046dae2744d2e6448401d334a7420f8
       internalID: 913021029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombManTileset2_17
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b152c7c1432d6946ba06321d58eebcf
+      internalID: -483615392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombManTileset2_27
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef0be6a305bf7b488557f7ecbc72968
+      internalID: 1511322933
       vertices: []
       indices: 
       edges: []

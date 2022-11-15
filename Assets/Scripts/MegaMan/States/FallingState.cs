@@ -39,6 +39,7 @@ namespace Player
 
 
             player.CheckForShoot();
+            player.CheckForRun();
             player.CheckForIdle();
             player.CheckForHit();
 

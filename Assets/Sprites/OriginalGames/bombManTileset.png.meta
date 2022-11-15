@@ -122,7 +122,7 @@ TextureImporter:
       name: bombManTileset_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 157
         width: 16
         height: 16
@@ -542,7 +542,7 @@ TextureImporter:
       name: bombManTileset_20
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 122
         width: 16
         height: 16
@@ -752,7 +752,7 @@ TextureImporter:
       name: bombManTileset_30
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 105
         width: 16
         height: 16
@@ -773,7 +773,7 @@ TextureImporter:
       name: bombManTileset_31
       rect:
         serializedVersion: 2
-        x: 18
+        x: 17
         y: 105
         width: 16
         height: 16
@@ -962,7 +962,7 @@ TextureImporter:
       name: bombManTileset_40
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 87
         width: 16
         height: 16
@@ -1046,7 +1046,7 @@ TextureImporter:
       name: bombManTileset_44
       rect:
         serializedVersion: 2
-        x: 69
+        x: 70
         y: 87
         width: 16
         height: 16
@@ -1067,7 +1067,7 @@ TextureImporter:
       name: bombManTileset_45
       rect:
         serializedVersion: 2
-        x: 86
+        x: 87
         y: 87
         width: 16
         height: 16
@@ -1131,7 +1131,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 140
-        y: 88
+        y: 87
         width: 16
         height: 16
       alignment: 7
@@ -1151,7 +1151,7 @@ TextureImporter:
       name: bombManTileset_50
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 70
         width: 16
         height: 16
@@ -1256,7 +1256,7 @@ TextureImporter:
       name: bombManTileset_55
       rect:
         serializedVersion: 2
-        x: 86
+        x: 87
         y: 70
         width: 16
         height: 16
@@ -1383,7 +1383,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 52
-        y: 53
+        y: 52
         width: 16
         height: 16
       alignment: 7
@@ -1488,7 +1488,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 36
+        y: 35
         width: 16
         height: 16
       alignment: 7
@@ -1509,7 +1509,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 17
-        y: 36
+        y: 35
         width: 16
         height: 16
       alignment: 7
@@ -1530,7 +1530,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 35
-        y: 36
+        y: 35
         width: 16
         height: 16
       alignment: 7
@@ -1551,7 +1551,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 52
-        y: 36
+        y: 35
         width: 16
         height: 16
       alignment: 7
@@ -1818,8 +1818,8 @@ TextureImporter:
       bombManTileset_61: 755282520
       bombManTileset_30: -1167648803
       bombManTileset_58: -2063466872
-      bombManTileset_35: -1380693245
       bombManTileset_56: -775594815
+      bombManTileset_35: -1380693245
       bombManTileset_72: 1009825338
       bombManTileset_38: 551742206
       bombManTileset_33: -913272329

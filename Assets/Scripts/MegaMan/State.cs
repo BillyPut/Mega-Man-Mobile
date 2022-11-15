@@ -38,12 +38,12 @@ namespace Player
         {
             if (player.joystick.InputDir.x > 0.05)
             {
-                player.xv = 4;
+                player.rb.velocity = new Vector2(6, player.rb.velocity.y);
                 player.sr.flipX = false;
             }
             if (player.joystick.InputDir.x < -0.05)
             {
-                player.xv = -4;
+                player.rb.velocity = new Vector2(-6, player.rb.velocity.y);
                 player.sr.flipX = true;
             }
         }

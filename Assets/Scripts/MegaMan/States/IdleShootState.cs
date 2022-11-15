@@ -16,7 +16,7 @@ namespace Player
             base.Enter();
             player.anim.Play("megaStandShoot", 0, 0);
             player.shootAnimTimer = 0.3f;
-            player.xv = 0;
+            player.rb.velocity = new Vector2(0f, 0f);
             player.cooldown = 0.2f;
             
 

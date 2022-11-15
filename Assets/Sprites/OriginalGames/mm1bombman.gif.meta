@@ -248,7 +248,7 @@ TextureImporter:
       name: mm1bombman_6
       rect:
         serializedVersion: 2
-        x: 295
+        x: 296
         y: 135
         width: 30
         height: 28
@@ -303,48 +303,6 @@ TextureImporter:
       bones: []
       spriteID: 1a4bbea4833704a4b806bcb8cba09497
       internalID: 1788865902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mm1bombman_9
-      rect:
-        serializedVersion: 2
-        x: 223
-        y: 104
-        width: 10
-        height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e1cf54deb9a493488c2334138384cb6
-      internalID: 931549238
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mm1bombman_10
-      rect:
-        serializedVersion: 2
-        x: 245
-        y: 104
-        width: 10
-        height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7b3b372e6667894393a21afb2bb1bd9
-      internalID: -1434245347
       vertices: []
       indices: 
       edges: []
@@ -479,10 +437,10 @@ TextureImporter:
       name: mm1bombman_19
       rect:
         serializedVersion: 2
-        x: 234
-        y: 87
-        width: 16
-        height: 22
+        x: 217
+        y: 82
+        width: 38
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,11 +455,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mm1bombman_21
+      name: mm1bombman_
       rect:
         serializedVersion: 2
         x: 11
-        y: 89
+        y: 90
         width: 16
         height: 16
       alignment: 7
@@ -518,7 +476,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mm1bombman_22
+      name: mm1bombman_9
       rect:
         serializedVersion: 2
         x: 33
@@ -539,7 +497,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mm1bombman_23
+      name: mm1bombman_10
       rect:
         serializedVersion: 2
         x: 59
@@ -555,69 +513,6 @@ TextureImporter:
       bones: []
       spriteID: 548a423d4ec6d5c42a2625051b11ee74
       internalID: 1957060246
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mm1bombman_24
-      rect:
-        serializedVersion: 2
-        x: 218
-        y: 93
-        width: 10
-        height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e32d20487e658142841908fd07f4bfd
-      internalID: -940749008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mm1bombman_30
-      rect:
-        serializedVersion: 2
-        x: 223
-        y: 82
-        width: 10
-        height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b9190c53cc66054f9d05060b0ff6f1f
-      internalID: -2015181932
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mm1bombman_31
-      rect:
-        serializedVersion: 2
-        x: 245
-        y: 82
-        width: 10
-        height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ebbce42b30c69b459a072eebba75044
-      internalID: -328555323
       vertices: []
       indices: 
       edges: []
@@ -749,27 +644,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mm1bombman_90
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 21
-        width: 4
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ceecf1bdaad5364c990cc19d1777d7e
-      internalID: 1723237976
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: mm1bombman_91
       rect:
         serializedVersion: 2
@@ -791,27 +665,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mm1bombman_92
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 20
-        width: 4
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5fc6e1cc06de74448b335a27f0ee9d8a
-      internalID: 1358481326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: mm1bombman_14
       rect:
         serializedVersion: 2
@@ -820,7 +673,7 @@ TextureImporter:
         width: 44
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -844,7 +697,6 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       mm1bombman_56: -1766945334
-      mm1bombman_21: -1376277799
       mm1bombman_84: 98059241
       mm1bombman_88: -2110344332
       mm1bombman_57: -269341743
@@ -871,15 +723,14 @@ TextureImporter:
       mm1bombman_13: 607188262
       mm1bombman_14: 650344501
       mm1bombman_30: -2015181932
-      mm1bombman_22: 1717158857
       mm1bombman_81: 1168840144
       mm1bombman_25: 57316994
       mm1bombman_86: -979701110
       mm1bombman_63: 864758412
+      mm1bombman_: -1376277799
       mm1bombman_15: -1630885953
       mm1bombman_78: -1694524147
       mm1bombman_41: 1993071410
-      mm1bombman_23: 1957060246
       mm1bombman_35: 451422823
       mm1bombman_39: -319470497
       mm1bombman_93: -70730769
@@ -920,7 +771,6 @@ TextureImporter:
       mm1bombman_60: 285979811
       mm1bombman_64: 1054656950
       mm1bombman_61: 1650336066
-      mm1bombman_28: 1665890125
       mm1bombman_65: 1165747298
       mm1bombman_50: -831165274
       mm1bombman_33: -1721761725
@@ -935,12 +785,12 @@ TextureImporter:
       mm1bombman_44: 1356452508
       mm1bombman_1: -2108588137
       mm1bombman_40: 1412425068
-      mm1bombman_10: -1434245347
+      mm1bombman_10: 1957060246
       mm1bombman_48: 207709544
       mm1bombman_92: 1358481326
       mm1bombman_71: -1391595489
       mm1bombman_53: -1629814279
-      mm1bombman_9: 931549238
+      mm1bombman_9: 1717158857
       mm1bombman_76: -493138332
       mm1bombman_47: 1891705011
   spritePackingTag: 
