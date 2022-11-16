@@ -11,8 +11,11 @@ public class GameManager : MonoBehaviour
 
     public int health;
     public int score;
+    public bool playerHittable;
+
     public Slider slider;
     public TextMeshProUGUI scoreText;
+    public MegaManScript megaMan;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +26,11 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (megaMan.invinsibility <= 0)
+        {
+            playerHittable = true;
+        }
+
         string scoreAmount = score.ToString();
         scoreText.text = scoreAmount;
         slider.value = health;

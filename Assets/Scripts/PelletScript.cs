@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PelletScript : MonoBehaviour
 {
-    public float explodeTimer = 1.3f;
+    public float explodeTimer;
 
     void Update()
     {

@@ -40,6 +40,7 @@ namespace Player
             player.CheckForShoot();
             player.CheckForJump();
             player.CheckForHit();
+            player.CheckForFall();
 
 
 

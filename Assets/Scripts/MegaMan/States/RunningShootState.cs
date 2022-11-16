@@ -42,6 +42,7 @@ namespace Player
 
             player.CheckForIdle();
             player.CheckForJump();
+            player.CheckForFall();
             if (player.shootAnimTimer <= 0 )
             {
                 player.CheckForRun();

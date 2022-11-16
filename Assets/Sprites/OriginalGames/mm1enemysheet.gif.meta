@@ -773,9 +773,9 @@ TextureImporter:
       name: mm1enemysheet_31
       rect:
         serializedVersion: 2
-        x: 232
+        x: 226
         y: 255
-        width: 9
+        width: 15
         height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -794,9 +794,9 @@ TextureImporter:
       name: mm1enemysheet_32
       rect:
         serializedVersion: 2
-        x: 246
+        x: 241
         y: 255
-        width: 8
+        width: 13
         height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -815,9 +815,9 @@ TextureImporter:
       name: mm1enemysheet_33
       rect:
         serializedVersion: 2
-        x: 258
+        x: 254
         y: 255
-        width: 9
+        width: 13
         height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -2924,9 +2924,9 @@ TextureImporter:
     nameFileIdTable:
       mm1enemysheet_80: -832044248
       mm1enemysheet_53: -66933522
-      mm1enemysheet_130: 1655020159
       mm1enemysheet_64: 414458961
       mm1enemysheet_92: 1338530550
+      mm1enemysheet_76: -877082595
       mm1enemysheet_6: -986978593
       mm1enemysheet_69: 601284051
       mm1enemysheet_94: 274115212
@@ -3054,7 +3054,7 @@ TextureImporter:
       mm1enemysheet_36: -762510742
       mm1enemysheet_15: 913932047
       mm1enemysheet_51: 535350378
-      mm1enemysheet_76: -877082595
+      mm1enemysheet_130: 1655020159
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

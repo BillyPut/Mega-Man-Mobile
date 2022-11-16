@@ -8,8 +8,8 @@ public class Enemies : MonoBehaviour
     public int hp;
     public int attackDamage;
     public int scoreValue;
+    public bool invincible = false;
     public GameObject player;
-    public MegaManScript playerValue;
     public GameManager gameManager;
 
     public void Activate()
@@ -31,5 +31,16 @@ public class Enemies : MonoBehaviour
         }
     }
 
-  
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Pellet" && invincible == false)
+        {
+            gameManager.score += scoreValue;
+            Destroy(gameObject);
+        }
+        if (collision.gameObject.tag == "Player" && gameManager.playerHittable == true)
+        {
+            gameManager.health -= attackDamage;
+        }
+    }
 }

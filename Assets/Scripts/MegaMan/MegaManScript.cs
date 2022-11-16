@@ -183,7 +183,7 @@ namespace Player
 
         public void OnTriggerEnter2D(Collider2D collision)
         {
-            if (collision.gameObject.tag == "Enemy" && invinsibility <= 0)
+            if (collision.gameObject.tag == "Enemy" && invinsibility <= 0 || collision.gameObject.tag == "EnemyBullet" && invinsibility <= 0)
             {
                 hit = true;
             }

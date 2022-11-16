@@ -17,7 +17,7 @@ public class KillerBombScript : Enemies
 
         hp = 1;
         attackDamage = 3;
-        scoreValue = 300;
+        scoreValue = 800;
 
         StartCoroutine(UpandDown());
 
@@ -29,19 +29,6 @@ public class KillerBombScript : Enemies
         Activate();
         Deactivate();
       
-    }
-
-    public void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Pellet")
-        {
-            gameManager.score += scoreValue;
-            Destroy(gameObject);
-        }
-        if (collision.gameObject.tag == "Player" && playerValue.invinsibility <= 0)
-        {
-            gameManager.health -= attackDamage;
-        }
     }
 
     IEnumerator UpandDown()
