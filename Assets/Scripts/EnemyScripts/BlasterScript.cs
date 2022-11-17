@@ -10,6 +10,7 @@ public class BlasterScript : Enemies
     public Rigidbody2D bullet;
 
     public float switchTimer;
+    public float shootDirection;
 
     // Start is called before the first frame update
     void Start()
@@ -59,15 +60,33 @@ public class BlasterScript : Enemies
 
     IEnumerator ShootBullets()
     {
-        for (int i = 0;i < 4; i++)
+        
+        for (float i = 0;i < 4; i++)
         {
+            yield return new WaitForSeconds(0.7f);
+
             float xPos = transform.position.x;
             float yPos = transform.position.y;
 
             Rigidbody2D bulletProj = Instantiate(bullet, new Vector3(xPos - 0.6f, yPos + 0.4f, 0), Quaternion.identity);
-            bulletProj.velocity = new Vector2(-6, Random.Range(-4.0f, 4.0f));
+            if (i == 0)
+            {
+                bulletProj.velocity = new Vector2(shootDirection, Random.Range(4.0f, 5.0f));
+            }
+            if (i == 1)
+            {
+                bulletProj.velocity = new Vector2(shootDirection, Random.Range(0.5f, 1.0f));
+            }
+            if (i == 2)
+            {
+                bulletProj.velocity = new Vector2(shootDirection, Random.Range(-1.0f, 0f));
+            }
+            if (i == 3)
+            {
+                bulletProj.velocity = new Vector2(shootDirection, Random.Range(-4.5f, -5.5f));
+            }
 
-            yield return new WaitForSeconds(0.5f);
+               
         }
 
         switchTimer = 3f;

@@ -16,7 +16,7 @@ namespace Player
         {
             base.Enter();
             player.anim.Play("megaHit", 0, 0);
-            player.invinsibility = 0.3f;
+            player.invinsibility = 1.5f;
             player.rb.velocity = new Vector2(0f, 0f);
             
 
@@ -40,12 +40,14 @@ namespace Player
             base.LogicUpdate();
 
 
-            if (player.invinsibility <= 0)
+            if (player.invinsibility <= 1.1f)
             {
                 player.CheckForRun();
+                player.CheckForShoot();
                 player.CheckForIdle();
                 player.CheckForJump();
                 player.CheckForFall();
+                
             }
      
 

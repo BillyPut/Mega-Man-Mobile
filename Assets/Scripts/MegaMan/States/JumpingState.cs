@@ -15,7 +15,7 @@ namespace Player
         {
             base.Enter();
             player.anim.Play("megaFall", 0, 0);
-            player.rb.velocity = Vector2.up * 9f;
+            player.rb.velocity = Vector2.up * 11f;
             
 
 

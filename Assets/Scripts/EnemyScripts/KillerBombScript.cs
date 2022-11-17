@@ -9,6 +9,8 @@ public class KillerBombScript : Enemies
     [HideInInspector] public Rigidbody2D rb;
     [HideInInspector] public BoxCollider2D box;
 
+    [HideInInspector] bool start;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,9 +20,6 @@ public class KillerBombScript : Enemies
         hp = 1;
         attackDamage = 3;
         scoreValue = 800;
-
-        StartCoroutine(UpandDown());
-
     }
 
     // Update is called once per frame
@@ -28,6 +27,13 @@ public class KillerBombScript : Enemies
     {
         Activate();
         Deactivate();
+
+        
+        if (start == false && box.isActiveAndEnabled == true)
+        {
+            StartCoroutine(UpandDown());
+            start = true;
+        }
       
     }
 
@@ -35,18 +41,14 @@ public class KillerBombScript : Enemies
     {
         while(true)
         {
-            if (box.isActiveAndEnabled)
-            {
-                rb.velocity = new Vector2(-3f, 5f);
-            }
           
+            
+            rb.velocity = new Vector2(-3f, 5f);
+                      
             yield return new WaitForSeconds(0.9f);
 
-            if (box.isActiveAndEnabled)
-            {
-                rb.velocity = new Vector2(-3f, -5f);
-            }
-
+            rb.velocity = new Vector2(-3f, -5f);
+            
             yield return new WaitForSeconds(0.9f);
 
 

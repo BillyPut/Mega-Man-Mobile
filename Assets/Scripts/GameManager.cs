@@ -31,6 +31,11 @@ public class GameManager : MonoBehaviour
             playerHittable = true;
         }
 
+        if (health <= 0 || megaMan.fellOff == true)
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
+
         string scoreAmount = score.ToString();
         scoreText.text = scoreAmount;
         slider.value = health;

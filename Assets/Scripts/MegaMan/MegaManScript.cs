@@ -27,7 +27,8 @@ namespace Player
         public float cooldown;
         public float shootAnimTimer;
         public float invinsibility;
-        public bool hit;
+        public float yOffset;
+        public bool hit, fellOff;
 
         public IdleState idleState;
         public JumpingState jumpingState;
@@ -73,7 +74,14 @@ namespace Player
             sm.CurrentState.HandleInput();
             sm.CurrentState.LogicUpdate();
 
-           
+            if (rayHit == true)
+            {
+                yOffset = 0.8f;
+            }
+            else
+            {
+                yOffset = 1.1f;
+            }
 
         }
 
@@ -129,12 +137,12 @@ namespace Player
             {
                 if (sr.flipX == false)
                 {
-                    Rigidbody2D proj = Instantiate(pellet, new Vector3(xPos + 0.8f, yPos + 0.8f, 0), Quaternion.identity);
+                    Rigidbody2D proj = Instantiate(pellet, new Vector3(xPos + 0.8f, yPos + yOffset, 0), Quaternion.identity);
                     proj.velocity = transform.right * 10;
                 }
                 else
                 {
-                    Rigidbody2D proj = Instantiate(pellet, new Vector3(xPos - 0.8f, yPos + 0.8f, 0), Quaternion.identity);
+                    Rigidbody2D proj = Instantiate(pellet, new Vector3(xPos - 0.8f, yPos + yOffset, 0), Quaternion.identity);
                     proj.velocity = -transform.right * 10;
                 }
 
@@ -158,6 +166,7 @@ namespace Player
         {
             if (hit == true)
             {
+                StartCoroutine(FlashWhite());
                 sm.ChangeState(hitState);
             }
         }
@@ -187,8 +196,25 @@ namespace Player
             {
                 hit = true;
             }
+            if (collision.gameObject.tag == "DeathPlane")
+            {
+                fellOff = true;
+            }
         }
 
+        IEnumerator FlashWhite()
+        {
+
+            for (int n = 0; n < 3; n++)
+            {
+                yield return new WaitForSeconds(0.2f);
+                GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
+                yield return new WaitForSeconds(0.2f);
+                GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1);
+
+            }
+
+        }
     }
 
 }

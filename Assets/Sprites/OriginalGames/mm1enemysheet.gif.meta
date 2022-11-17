@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -773,9 +773,9 @@ TextureImporter:
       name: mm1enemysheet_31
       rect:
         serializedVersion: 2
-        x: 226
+        x: 228
         y: 255
-        width: 15
+        width: 13
         height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -836,9 +836,9 @@ TextureImporter:
       name: mm1enemysheet_34
       rect:
         serializedVersion: 2
-        x: 272
+        x: 274
         y: 255
-        width: 15
+        width: 13
         height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -2924,9 +2924,9 @@ TextureImporter:
     nameFileIdTable:
       mm1enemysheet_80: -832044248
       mm1enemysheet_53: -66933522
+      mm1enemysheet_130: 1655020159
       mm1enemysheet_64: 414458961
       mm1enemysheet_92: 1338530550
-      mm1enemysheet_76: -877082595
       mm1enemysheet_6: -986978593
       mm1enemysheet_69: 601284051
       mm1enemysheet_94: 274115212
@@ -2997,8 +2997,8 @@ TextureImporter:
       mm1enemysheet_79: -1720661152
       mm1enemysheet_45: 1657097309
       mm1enemysheet_61: -1554955755
-      mm1enemysheet_21: 748010216
       mm1enemysheet_33: -1027419810
+      mm1enemysheet_21: 748010216
       mm1enemysheet_105: -1241982837
       mm1enemysheet_44: -152862023
       mm1enemysheet_34: 1976272050
@@ -3053,8 +3053,8 @@ TextureImporter:
       mm1enemysheet_20: 1536235063
       mm1enemysheet_36: -762510742
       mm1enemysheet_15: 913932047
+      mm1enemysheet_76: -877082595
       mm1enemysheet_51: 535350378
-      mm1enemysheet_130: 1655020159
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
