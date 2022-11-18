@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1976272050, guid: 230ce1e44598ff04f9b7296f5162d587, type: 3}
+  m_Sprite: {fileID: 921027919, guid: 230ce1e44598ff04f9b7296f5162d587, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -135,6 +135,7 @@ MonoBehaviour:
   anim: {fileID: 0}
   bullet: {fileID: -7335452037770244861, guid: fb744ffbe0ac1db418d4ac6fe888e917, type: 3}
   switchTimer: 2.5
+  shootDirection: 0
 --- !u!95 &3880623485411643765
 Animator:
   serializedVersion: 4

@@ -46,6 +46,10 @@ namespace Player
                 player.rb.velocity = new Vector2(-6, player.rb.velocity.y);
                 player.sr.flipX = true;
             }
+            if (player.joystick.InputDir.x > -0.05 && player.joystick.InputDir.x < 0.05)
+            {
+                player.rb.velocity = new Vector2(0, player.rb.velocity.y);
+            }
         }
 
         public virtual void Exit()

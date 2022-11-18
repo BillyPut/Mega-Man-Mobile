@@ -15,7 +15,7 @@ namespace Player
         public override void Enter()
         {
             base.Enter();
-            player.anim.Play("megaShootState", 0, 0);
+            player.anim.Play("megaRunShoot", 0, 0);
             player.shootAnimTimer = 0.3f;
             player.cooldown = 0.2f;
 

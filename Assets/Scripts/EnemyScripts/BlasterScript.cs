@@ -6,6 +6,7 @@ public class BlasterScript : Enemies
 {
     [HideInInspector] public BoxCollider2D box;
     [HideInInspector] public Animator anim;
+    [HideInInspector] public SpriteRenderer sr;
 
     public Rigidbody2D bullet;
 
@@ -17,6 +18,7 @@ public class BlasterScript : Enemies
     {
         box = GetComponent<BoxCollider2D>();
         anim = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
 
         hp = 1;
         attackDamage = 1;
@@ -68,7 +70,17 @@ public class BlasterScript : Enemies
             float xPos = transform.position.x;
             float yPos = transform.position.y;
 
-            Rigidbody2D bulletProj = Instantiate(bullet, new Vector3(xPos - 0.6f, yPos + 0.4f, 0), Quaternion.identity);
+            Rigidbody2D bulletProj;
+
+            if (sr.flipX == false)
+            {
+                bulletProj = Instantiate(bullet, new Vector3(xPos - 0.6f, yPos + 0.4f, 0), Quaternion.identity);
+            }
+            else
+            {
+                bulletProj = Instantiate(bullet, new Vector3(xPos + 0.6f, yPos + 0.4f, 0), Quaternion.identity);
+            }
+            
             if (i == 0)
             {
                 bulletProj.velocity = new Vector2(shootDirection, Random.Range(4.0f, 5.0f));

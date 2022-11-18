@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     public Slider slider;
     public TextMeshProUGUI scoreText;
     public MegaManScript megaMan;
+    public EndGame resetTime;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +32,13 @@ public class GameManager : MonoBehaviour
             playerHittable = true;
         }
 
-        if (health <= 0 || megaMan.fellOff == true)
+        if (resetTime.stopPlayer == true)
+        {
+            megaMan.gameObject.SetActive(false);
+        }
+
+
+        if (health <= 0 || megaMan.fellOff == true || resetTime.resetGame == true)
         {
             SceneManager.LoadScene("SampleScene");
         }

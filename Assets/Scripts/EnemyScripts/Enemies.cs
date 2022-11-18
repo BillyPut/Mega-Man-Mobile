@@ -15,17 +15,24 @@ public class Enemies : MonoBehaviour
     public void Activate()
     {
         float dist = player.transform.position.x - gameObject.transform.position.x;
-        if (dist < 0f && dist > -14f)
+        float disty = player.transform.position.y - gameObject.transform.position.y;
+        if (dist < 14f && dist > -14f)
         {
-            gameObject.GetComponent<BoxCollider2D>().enabled = true;
+            if (disty < 8f && disty > -8f)
+            {
+                gameObject.GetComponent<BoxCollider2D>().enabled = true;
+            }
+         
         }
+        
 
     }
 
     public void Deactivate()
     {
         float dist = player.transform.position.x - gameObject.transform.position.x;
-        if (dist > 36f)
+        float disty = player.transform.position.y - gameObject.transform.position.y;
+        if (dist > 36f || disty > 15f)
         {
             gameObject.SetActive(false);
         }

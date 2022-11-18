@@ -175,18 +175,21 @@ namespace Player
         {
             int layerMask = LayerMask.GetMask("Platform");
 
-            RaycastHit2D hit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), -Vector2.up, 0.2f, layerMask);
+            RaycastHit2D hit = Physics2D.Raycast(new Vector2(transform.position.x - 0.2f, transform.position.y), -Vector2.up, 0.2f, layerMask);
+            RaycastHit2D hit2 = Physics2D.Raycast(new Vector2(transform.position.x - 0.75f, transform.position.y), -Vector2.up, 0.2f, layerMask);
+            RaycastHit2D hit3 = Physics2D.Raycast(new Vector2(transform.position.x + 0.4f, transform.position.y), -Vector2.up, 0.2f, layerMask);
             Color hitColor = Color.yellow;
             rayHit = false;
 
-            if (hit.collider != null)
+            if (hit.collider != null || hit2.collider != null || hit3.collider != null)
             {
                 hitColor = Color.green;
-                Debug.DrawRay(new Vector2(transform.position.x, transform.position.y), -Vector2.up * 0.1f, hitColor);
+                Debug.DrawRay(new Vector2(transform.position.x - 0.2f, transform.position.y), -Vector2.up * 0.2f, hitColor);
+                Debug.DrawRay(new Vector2(transform.position.x - 0.75f, transform.position.y), -Vector2.up * 0.2f, hitColor);
+                Debug.DrawRay(new Vector2(transform.position.x + 0.4f, transform.position.y), -Vector2.up * 0.2f, hitColor);
                 rayHit = true;
             }
 
-            Debug.DrawRay(new Vector2(transform.position.x, transform.position.y), -Vector2.up * 0.1f, hitColor);
 
         }
 

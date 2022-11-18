@@ -148,4 +148,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
   attackDamage: 2
-  explodeTimer: 5
+  explodeTimer: 3
