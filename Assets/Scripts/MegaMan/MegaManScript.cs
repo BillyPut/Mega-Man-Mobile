@@ -203,6 +203,7 @@ namespace Player
             {
                 fellOff = true;
             }
+   
         }
 
         IEnumerator FlashWhite()
